@@ -1,0 +1,31 @@
+{
+    "name": "the-awesome-api",
+    "version": "1.0.0",
+    "description": "a sample of an awesome api",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "start": {
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rafaeltc/the-awesome-api.git"
+    },
+    "keywords": [
+        "nodejs",
+        "koa",
+        "api"
+    ],
+    "author": "rafaeltc",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rafaeltc/the-awesome-api/issues"
+    },
+    "homepage": "https://github.com/rafaeltc/the-awesome-api#readme",
+    "dependencies": {
+        "koa": "^2.13.0"
+    },
+    "devDependencies": {}
+}
