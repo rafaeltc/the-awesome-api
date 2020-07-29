@@ -13,9 +13,9 @@ router.get('/', (ctx, next) => {
     ctx.body = 'hello world!'
 });
 
-router.get('/home', (ctx, next) => {
+router.get('/cats/:id', (ctx, next) => {
     // ctx.router available
-    ctx.body = 'HOME!'
+    ctx.body = `<h2>Hello cat #${ctx.params.id}</h2>`
 });
 
 app
